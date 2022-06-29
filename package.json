@@ -1,6 +1,6 @@
 {
   "name": "vue2-sweetselect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "gzy",
   "license": "MIT",
   "description": "A wrapper of tree select for Vuejs v2. Style Adpater for Element-ui.",
