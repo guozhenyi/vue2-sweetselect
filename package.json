@@ -1,10 +1,24 @@
 {
   "name": "vue2-sweetselect",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.0-beta",
+  "author": "gzy",
+  "license": "MIT",
+  "main": "dist/sweetselect.common.js",
+  "browser": "dist/sweetselect.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue2",
+    "tree",
+    "select",
+    "treeselect",
+    "element-ui"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name sweetselect src/sweetselect/src/index.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
@@ -13,6 +27,7 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@riophae/vue-treeselect": "0.4.0",
     "@vue/cli-plugin-babel": "~4.5.17",
     "@vue/cli-plugin-eslint": "~4.5.17",
     "@vue/cli-plugin-unit-mocha": "~4.5.17",
