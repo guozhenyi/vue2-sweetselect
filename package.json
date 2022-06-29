@@ -1,6 +1,6 @@
 {
   "name": "vue2-sweetselect",
-  "version": "0.1.0-beta",
+  "version": "0.1.0",
   "author": "gzy",
   "license": "MIT",
   "main": "dist/sweetselect.common.js",
