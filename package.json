@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "gzy",
   "license": "MIT",
+  "description": "A wrapper of tree select for Vuejs v2. Style Adpater for Element-ui.",
   "main": "dist/sweetselect.common.js",
   "browser": "dist/sweetselect.umd.min.js",
   "files": [
@@ -16,6 +17,7 @@
     "treeselect",
     "element-ui"
   ],
+  "repository": "guozhenyi/vue2-sweetselect",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name sweetselect src/sweetselect/src/index.vue",
